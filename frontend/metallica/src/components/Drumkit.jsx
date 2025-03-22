@@ -424,7 +424,7 @@ const SVGDrumKit = () => {
       const formData = new FormData();
       formData.append("userId", "dummy-user-id");
       formData.append("audio", recording.blob, `recording-${Date.now()}.webm`);
-      const response = await fetch("http://localhost:8080/audio/upload-audio", {
+      const response = await fetch("https://deploy-metallica-api.vercel.app/audio/upload-audio", {
         method: "POST",
         body: formData,
       });

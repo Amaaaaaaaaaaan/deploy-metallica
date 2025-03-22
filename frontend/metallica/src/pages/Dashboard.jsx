@@ -16,7 +16,7 @@ function Dashboard() {
       console.error("User not logged in!");
       return;
     }
-    fetch(`http://localhost:8080/audio/user-audios/${userId}`)
+    fetch(`https://deploy-metallica-api.vercel.app/audio/user-audios/${userId}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch recordings");
@@ -35,7 +35,7 @@ function Dashboard() {
     const track = recordings[index];
     // Call backend DELETE API to remove the audio file
     fetch(
-      `http://localhost:8080/audio/${track.filename}?userId=${localStorage.getItem(
+      `https://deploy-metallica-api.vercel.app/audio/${track.filename}?userId=${localStorage.getItem(
         "userId"
       )}`,
       {
@@ -159,7 +159,7 @@ function Dashboard() {
                 onClick={() =>
                   setActiveTrack({
                     ...track,
-                    src: `http://localhost:8080/audio/${track.filename}`,
+                    src: `https://deploy-metallica-api.vercel.app/audio/${track.filename}`,
                   })
                 }
                 style={{ cursor: "pointer" }}
@@ -201,7 +201,7 @@ function Dashboard() {
                       e.stopPropagation();
                       setActiveTrack({
                         ...track,
-                        src: `http://localhost:8080/audio/${track.filename}`,
+                        src: `https://deploy-metallica-api.vercel.app/audio/${track.filename}`,
                       });
                     }}
                     style={{

@@ -50,7 +50,7 @@ const SaveRecordingDialog = ({ recordingUrl, onCancel }) => {
       formData.append("userId", userId);
 
       // Update the URL below to match your backend route.
-      const response = await fetch("http://localhost:8080/audio/upload-audio", {
+      const response = await fetch("https://deploy-metallica-api.vercel.app/audio/upload-audio", {
         method: "POST",
         body: formData,
       });
