@@ -70,14 +70,14 @@ function Loader() {
 
 const PRESET_MAPPINGS = {
   Default: {
-    w: '../../public/audios/piano/21.mp3',
-    a: '../../public/audios/piano/33.mp3',
-    s: '../../public/audios/piano/45.mp3',
-    d: '../../public/audios/piano/57.mp3',
-    q: '../../public/audios/piano/69.mp3',
-    e: '../../public/audios/piano/81.mp3',
-    r: '../../public/audios/pianor/93.mp3',
-    t: '../../public/audios/piano/105.mp3'
+    w: '/audios/piano/21.mp3',
+    a: '/audios/piano/33.mp3',
+    s: '/audios/piano/45.mp3',
+    d: '/audios/piano/57.mp3',
+    q: '/audios/piano/69.mp3',
+    e: '/audios/piano/81.mp3',
+    r: '/audios/pianor/93.mp3',
+    t: '/audios/piano/105.mp3'
   },
   Alternative: {
     w: '/audios/alternative_bass.mp3',
