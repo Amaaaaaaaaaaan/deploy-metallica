@@ -23,7 +23,7 @@ import Sidenav from '../components/sidenav';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-const LandingPage = () => {
+const Home = () => {
   // Static reviews array
   const reviews = [
     {
@@ -305,4 +305,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Home;
