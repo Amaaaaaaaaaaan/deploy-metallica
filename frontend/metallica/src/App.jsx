@@ -35,7 +35,6 @@ function App() {
           <Route path='/drums' element={<DrumPlayer />} />
           <Route path='/piano' element={<KeyboardPlayer />} />
           <Route path='/about' element={<AboutUsPage/>} />
-          <Route path='/drumkit' element={<SVGDrumkit />} />
           <Route path='/virtualdrums' element={<HandDrum />} />
            <Route path='/saved' element={<Dashboard />} />
            <Route path='/beatsequencer' element={<Beatboxer />} />

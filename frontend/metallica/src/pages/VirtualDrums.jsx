@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Hands } from '@mediapipe/hands';
 import { Camera } from '@mediapipe/camera_utils';
 import { Howl } from 'howler';
-import style from '../styles/HandDrum.module.css';
+import style from '../styles/Handdrum.module.css';
 
 // Import images for each drum zone
 import bassDrumImg from '../assets/virtualdrum/Bass_drum.png';
