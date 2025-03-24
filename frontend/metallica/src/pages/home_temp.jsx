@@ -129,7 +129,7 @@ const Home = () => {
           <div className={styles.heroContent}>
             <h1 className={styles.header}>
                <img
-  src="../../public/metallica-svg-white.svg"
+  src="/metallica-svg-white.svg"
   style={{ width: "339px", marginLeft: "70px", height: "118px" }}
   alt="Metallica Logo"
 />

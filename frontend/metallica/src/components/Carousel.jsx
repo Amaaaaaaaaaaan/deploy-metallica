@@ -73,21 +73,21 @@ const Carousel = () => {
     >
       <img
         className="image"
-        src="../src/assets/drumbg2.png"
+        src="/drumbg2.png"
         draggable="false"
         alt="Drums"
         onClick={() => handleClick('/drums')}
       />
       <img
         className="image"
-        src="../src/assets/piano.jpeg"
+        src="/piano.jpeg"
         draggable="false"
         alt="Piano"
         onClick={() => handleClick('/piano')}
       />
       <img
         className="image"
-        src="../src/assets/sequencer.jpg"
+        src="/sequencer.jpg"
         draggable="false"
         alt="Sequencer"
         onClick={() => handleClick('/beatsequencer')}
