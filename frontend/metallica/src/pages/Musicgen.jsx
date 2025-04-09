@@ -1,7 +1,7 @@
-// MusicGenerator.jsx
 import React, { useState, useEffect } from "react";
 // If you have a custom Button component, import it here:
 import Button from "../components/Button"; 
+
 /**
  * Props:
  *  - selectedStyles (string): The music styles or prompt to generate from
@@ -106,14 +106,15 @@ export default MusicGenerator;
 /** Inline styles (optional). Adjust as you wish or replace with CSS modules. */
 const styles = {
   container: {
-    width: "90%",            // Make it 90% of the parent width
-    maxWidth: "600px",       // Prevent it from getting too large
-    margin: "0 auto",        // Center horizontally
+    boxSizing: "border-box",
+    width: "90%",              // Adjusted to 90%
+    maxWidth: "600px",         // Prevent it from getting too large
+    margin: "0 auto",          // Center horizontally
     padding: "20px",
     backgroundColor: "#121212",
     borderRadius: "10px",
     boxShadow: "0 4px 15px rgba(0, 91, 91, 0.6)",
-    marginTop: "50px",
+    marginTop: "0px",
     textAlign: "center",
   },
   title: {
@@ -136,6 +137,7 @@ const styles = {
     fontSize: "16px",
     outline: "none",
     marginBottom: "10px",
+    boxSizing: "border-box",
   },
   buttonContainer: {
     marginTop: "20px",

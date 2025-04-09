@@ -108,7 +108,7 @@ const Carousel = () => {
       />
       <img
         className="image"
-        src="../src/assets/savedmusic.png"
+        src="/savedmusic.png"
         draggable="false"
         alt="Test"
         onClick={() => handleClick('/saved')}

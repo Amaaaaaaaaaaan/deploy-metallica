@@ -1,4 +1,4 @@
-# Music-Themed Web Application
+# METALLICA Web Application
 
 This project is a music-themed web application with various interactive components. It uses React for the frontend and Express for the backend.
 
