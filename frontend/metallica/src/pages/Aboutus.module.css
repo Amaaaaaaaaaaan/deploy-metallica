@@ -119,6 +119,8 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   max-width: 1200px;
+  color: white;
+  text-decoration: none;
   margin: 0 auto;
 }
 
@@ -127,6 +129,8 @@
   border-radius: 8px;
   padding: 2rem;
   text-align: center;
+  color: white;
+  text-decoration: none;
   transition: transform 0.2s ease;
 }
 
@@ -149,6 +153,7 @@
   margin: 0;
   font-size: 0.95rem;
 }
+
 
 /* FAQ Section */
 .faqItems {

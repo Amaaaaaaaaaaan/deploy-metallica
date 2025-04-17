@@ -171,36 +171,36 @@ const AboutUsPage = () => {
                 Have a question or want to collaborate? Reach out to us through any of the channels below.
               </p>
               <div className={styles.contactCards}>
-                <div className={styles.contactCard}>
+                <a href="mailto:metallica@gmail.com" aria-label="Email" className={styles.contactCard}>
                   <FaEnvelope className={styles.contactIcon} />
                   <h3>Email</h3>
-                  <p>Metallica@gmail.com</p>
-                </div>
-                <div className={styles.contactCard}>
+                  <p>metallica@gmail.com</p>
+                </a>
+                <a href="tel:+911234567890" aria-label="Phone" className={styles.contactCard}>
                   <FaPhone className={styles.contactIcon} />
                   <h3>Phone</h3>
                   <p>+91-123-4567890</p>
-                </div>
-                <div className={styles.contactCard}>
+                </a>
+                <a href="https://twitter.com/Metallica" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className={styles.contactCard}>
                   <FaTwitter className={styles.contactIcon} />
                   <h3>Twitter</h3>
                   <p>@Metallica</p>
-                </div>
-                <div className={styles.contactCard}>
+                </a>
+                <a href="https://www.linkedin.com/company/metallica" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className={styles.contactCard}>
                   <FaLinkedin className={styles.contactIcon} />
                   <h3>LinkedIn</h3>
                   <p>Metallica Pvt. Ltd</p>
-                </div>
-                <div className={styles.contactCard}>
+                </a>
+                <a href="https://instagram.com/Metallica" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className={styles.contactCard}>
                   <FaInstagram className={styles.contactIcon} />
                   <h3>Instagram</h3>
                   <p>@Metallica</p>
-                </div>
-                <div className={styles.contactCard}>
+                </a>
+                <a href="https://github.com/metallica" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className={styles.contactCard}>
                   <FaGithub className={styles.contactIcon} />
                   <h3>GitHub</h3>
                   <p>Metallica</p>
-                </div>
+                </a>
               </div>
             </section>
 

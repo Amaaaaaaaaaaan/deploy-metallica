@@ -1,3 +1,7 @@
+//saare routes idhr defined  hai taaki yaha se clutter hata ke 
+//routes folder me rakh sakein
+// yeh sirf server ko start karne ka kaam karega
+
 const express = require('express');
 const app = express();
 require('dotenv').config();
